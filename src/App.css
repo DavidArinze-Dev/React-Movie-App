@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.movie-card img {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.filter select {
+  padding: 5px;
+}
